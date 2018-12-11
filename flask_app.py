@@ -13,4 +13,6 @@ def process_inputs():
     select = request.form.get('input_select', '')
     freeform = request.form.get('input_freeform', '')
     return render_template("main_page.html", input_data=dropdown,
-                           output="You're a wizard %s." % name)
+                           output="You're a super warlord %s." % name)
+
+
