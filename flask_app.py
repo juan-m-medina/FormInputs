@@ -15,4 +15,5 @@ def process_inputs():
     return render_template("main_page.html", input_data=dropdown,
                            output="You're a super warlord %s." % name)
 
+# Adding a comment
 
